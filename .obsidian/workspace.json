@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "3ae24737cbfd1842",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5abd49288786a7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e48743bee6c6b689",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/notes/학생들에게 컴퓨터학과에 가지 않기를 조언합니다..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "학생들에게 컴퓨터학과에 가지 않기를 조언합니다."
+            }
+          },
+          {
+            "id": "c35e0e24d4b994cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/notes/2026-04-27-letstrade-user-ticker-pipeline-runbook-request.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-27-letstrade-user-ticker-pipeline-runbook-request"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "718cc0d43b65f681",
+    "type": "split",
+    "children": [
+      {
+        "id": "42c0fddccf42fe13",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b22e87e7b828f09",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "65cc75fa34c5c940",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e83341f69c069b1f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5117bb3e0529d1c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae17b8ea5286648b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c2358d3895d2fc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AGENTS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "AGENTS 의 백링크"
+            }
+          },
+          {
+            "id": "8f045c426ffe8d9b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AGENTS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "AGENTS 의 나가는 링크"
+            }
+          },
+          {
+            "id": "e050243569e02e91",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "7bc10a7d2374a69a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "모든 속성"
+            }
+          },
+          {
+            "id": "cf56a7443b91222b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AGENTS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "AGENTS 의 개요"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "c35e0e24d4b994cb",
+  "lastOpenFiles": [
+    "raw/notes/컴퓨터활용능력 자격증 앞으로도 필요할까.md",
+    "raw/notes/학생들에게 컴퓨터학과에 가지 않기를 조언합니다..md",
+    "wiki/queries/letstrade-user-ticker-pipeline-runbook.md",
+    "wiki/agents/letstrade-pipeline.md",
+    "raw/notes/2026-04-27-letstrade-user-ticker-pipeline-runbook-request.md",
+    "wiki/agents/skill-feed-collector.md",
+    "wiki/agents/skill-ls-broker.md",
+    "SOUL.md",
+    "무제.canvas",
+    "wiki/operations/index.md",
+    "wiki/operations/nas-teacher-bind-persistence.md",
+    "wiki/operations",
+    "wiki/queries/hermes-agent-registry.md",
+    "start-here.md",
+    "README.md",
+    "log.md",
+    "index.md",
+    "AGENTS.md",
+    "wiki/concepts/ai-service-building-curriculum.md",
+    "raw/notes/2026-04-23-agent-creation-manual-request.md",
+    "raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md",
+    "wiki/concepts/school-as-learning-hub.md",
+    "wiki/concepts/tribe-based-leadership.md",
+    "wiki/concepts/obsidian-workflow.md",
+    "wiki/concepts/learner-agency.md",
+    "schema/tag-taxonomy.md",
+    "schema/page-types.md",
+    "schema/frontmatter-example.md",
+    "raw/cardnews"
+  ]
+}
