@@ -1,3 +1,12 @@
+---
+title: Hermes Agent + Obsidian: Second Brain with Agent Team - 분석 노트
+created: 2026-06-10
+updated: 2026-06-10
+type: summary
+tags: ['tooling', 'workflow']
+sources: []
+---
+
 # Hermes Agent + Obsidian: Second Brain with Agent Team - 분석 노트
 
 > 🎬 **원본 영상**: [Hermes Agents + Obsidian: My Second Brain Has a Team of Agents in Discord](https://www.youtube.com/watch?v=L0hs3-xBjJE)
@@ -78,16 +87,16 @@ NotebookLM이 생성한 AI 요약:
 | 아티팩트 | 상태 | 위치 |
 |----------|------|------|
 | 📝 보고서 (Blog Post) | ✅ 완료 | `summaries/2026-06-07-hermes-agent-video-review.md` |
-| 🎙️ 오디오 개요 (Podcast) | ✅ 완료 | [[media/2026-06-07-hermes-agent-podcast.mp4]] (43MB, 영어 "Building a self-improving local second brain") |
-| 🎙️ 오디오 개요 (한국어) | ✅ 완료 | [[media/2026-06-07-hermes-agent-podcast-ko.mp4]] (36MB, 한글 "밤새 스스로 도구를 깎는 AI 세컨드 브레인") |
+| 🎙️ 오디오 개요 (Podcast) | ✅ 완료 | `media/2026-06-07-hermes-agent-podcast.mp4` (영상 원본, 위키 외부) (43MB, 영어 "Building a self-improving local second brain") |
+| 🎙️ 오디오 개요 (한국어) | ✅ 완료 | `media/2026-06-07-hermes-agent-podcast-ko.mp4` (영상 원본, 위키 외부) (36MB, 한글 "밤새 스스로 도구를 깎는 AI 세컨드 브레인") |
 
 ---
 
 ## 🔗 관련 노트
 
-- [[notebooklm-workflow]] - NotebookLM 통합 워크플로우
-- [[hermes-agent-skill-authoring]] - Hermes 스킬 작성법
-- [[obsidian]] - Obsidian 세컨드 브레인
+- notebooklm-workflow - NotebookLM 통합 워크플로우
+- hermes-agent-skill-authoring - Hermes 스킬 작성법
+- obsidian - Obsidian 세컨드 브레인
 
 ---
 

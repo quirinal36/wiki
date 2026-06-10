@@ -1,3 +1,12 @@
+---
+title: Hermes Profile + Slack App 연동 설정 매뉴얼
+created: 2026-06-10
+updated: 2026-06-10
+type: query
+tags: ['tooling', 'workflow']
+sources: []
+---
+
 # Hermes Profile + Slack App 연동 설정 매뉴얼
 
 > 새로운 Hermes profile을 생성하고, Slack App을 만들어 해당 채널에서 멘션으로 대화할 수 있도록 연동하는 전체 절차.

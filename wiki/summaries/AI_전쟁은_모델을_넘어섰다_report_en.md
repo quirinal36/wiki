@@ -1,3 +1,12 @@
+---
+title: Strategic Analysis: The Great AI Paradigm Shift from Models to Infrastructure
+created: 2026-06-10
+updated: 2026-06-10
+type: summary
+tags: ['llm', 'ai-business']
+sources: []
+---
+
 # Strategic Analysis: The Great AI Paradigm Shift from Models to Infrastructure
 
 ### 1. The Paradigm Shift: From AI Models to AI Infrastructure

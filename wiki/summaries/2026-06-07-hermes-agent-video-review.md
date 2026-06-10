@@ -1,3 +1,12 @@
+---
+title: The AI "Power Couple": Automating Your Knowledge with Hermes Agent and NotebookLM
+created: 2026-06-10
+updated: 2026-06-10
+type: summary
+tags: ['tooling', 'workflow']
+sources: []
+---
+
 # The AI "Power Couple": Automating Your Knowledge with Hermes Agent and NotebookLM
 
 ## 1. Introduction: The Manual Friction of Genius

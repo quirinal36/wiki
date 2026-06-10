@@ -18,4 +18,4 @@ ChatGPT 등장 이후 약 3년 6개월이 지난 시점에서, 기술 변화에 
 
 ## 관련 개념
 - [[vibe-coding]]
-- [[ai-education-paradigm]]
+- [[ai-education-paradigm-shift]]

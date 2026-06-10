@@ -1,3 +1,12 @@
+---
+title: NAS Teacher 마운트 매뉴얼
+created: 2026-06-10
+updated: 2026-06-10
+type: query
+tags: ['tooling', 'workflow']
+sources: []
+---
+
 # NAS Teacher 마운트 매뉴얼
 
 NAS(`192.168.0.4`)의 `teacher` 공유 폴더를 WSL의 `~/nas/teacher`에 마운트하는 전체 과정.

@@ -131,3 +131,21 @@
 - Created concepts: `concepts/vibe-coding.md`, `concepts/ai-assisted-education.md`
 - Detected and recorded empty placeholders: `2026-06-08.md`, `hermes-agent-skill-authoring.md`, `notebooklm-workflow.md`, `obsidian.md` (no pages created)
 - Updated `index.md` and `log.md`.
+
+## [2026-06-10] ingest | Karpathy LLM Wiki pattern — knowledge management strategy
+- Source read: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f (llm-wiki.md)
+- Created concept page: `wiki/concepts/knowledge-management-strategy.md`
+  - Documents core philosophy (compounding wiki vs RAG), human/agent division of labor, 3-layer architecture, Ingest/Query/Lint operations, non-negotiable rules, and current vault state + cleanup plan.
+- Strategy also saved to agent persistent memory.
+- Next step proposed: run a full lint pass to fix index completeness, orphans, and nested-path duplication.
+
+## [2026-06-10] lint | Full vault cleanup & restructure
+- Diagnosis: vault had two parallel structures (root `summaries/concepts/entities/queries` vs canonical `wiki/...`). Content similarity analysis showed they were NOT duplicates (<0.55 similarity) but distinct unique content.
+- Consolidation: `git mv` of 46 root content pages into canonical `wiki/` structure. 2 filename collisions preserved as `-alt` (`lets-coding-and-play-alt`, `seth-godin-alt`).
+- Archived 4 empty placeholder files from `raw/notes/` to `_archive/raw/notes/`.
+- Removed now-empty root dirs: `summaries/`, `concepts/`, `entities/`, `queries/`.
+- Fixed 28 broken wikilinks: escaped skill links, empty `[[concepts]]`/`[[entities]]` placeholders removed, `media/*.mp4` links → inline code, remapped stale targets to existing pages.
+- Added YAML frontmatter to 10 pages that lacked it.
+- Regenerated `index.md` from scratch: 96 pages cataloged across 7 type sections (concepts, entities, comparisons, summaries, queries, agents, operations) + pointer section for edudata/시설관리/blog templates.
+- Final lint: broken_links=0, frontmatter_missing=0, empty_files=0. Remaining: 44 pages reachable only via index (no page-to-page inbound) — to be cross-linked incrementally during future ingest/query.
+- edudata/, 시설관리/, root Korean blog templates left untouched (separate projects).

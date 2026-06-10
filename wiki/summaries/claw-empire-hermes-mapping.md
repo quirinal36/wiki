@@ -14,4 +14,4 @@ Strategy for integrating `hermes-empire` (Claw-Empire) as the control surface ov
 - **Claw-Empire**: High-level intent, directive, and team orchestration.
 - **Hermes**: The runtime/execution layer performing the work.
 
-See also: [[hermes-agent]], [[hermes-empire]]
+See also: [[hermes-agent]], hermes-empire

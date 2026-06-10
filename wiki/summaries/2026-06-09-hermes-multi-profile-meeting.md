@@ -1,3 +1,12 @@
+---
+title: Hermes Agent 멀티 프로필 Slack 연동 회의록
+created: 2026-06-10
+updated: 2026-06-10
+type: summary
+tags: ['tooling', 'workflow']
+sources: []
+---
+
 # Hermes Agent 멀티 프로필 Slack 연동 회의록
 
 **날짜:** 2026년 6월 9일

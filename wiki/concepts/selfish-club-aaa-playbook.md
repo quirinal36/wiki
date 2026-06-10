@@ -1,3 +1,12 @@
+---
+title: 🚀 셀피쉬클럽(AAA팀) 운영 모델 복제 가이드
+created: 2026-06-10
+updated: 2026-06-10
+type: concept
+tags: ['company', 'workflow']
+sources: []
+---
+
 # 🚀 셀피쉬클럽(AAA팀) 운영 모델 복제 가이드
 
 > **원본 출처:** [빌더조쉬 × 젬마(신주혜)님 인터뷰](https://maily.so/josh/posts/e9o0y2mnr8w)

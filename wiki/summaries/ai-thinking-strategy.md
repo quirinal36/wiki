@@ -15,4 +15,4 @@ sources: ['raw/notes/ai 를 이기는 생각방법.md']
 - **리더십의 역설**: 카리스마는 행동(용기)의 결과물.
 - **1,000명의 팬**: 양보다 질적인 연결(부족)이 강력한 힘을 발휘함.
 
-See also: [[vibe-coding]], [[ai-survival-strategy]]
+See also: [[vibe-coding]], [[ai-era-survival-strategy]]

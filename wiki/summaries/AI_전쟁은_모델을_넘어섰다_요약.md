@@ -1,3 +1,12 @@
+---
+title: AI 전쟁은 모델을 넘어섰다 — 칩·전력·추론·피지컬 AI의 다음 병목
+created: 2026-06-10
+updated: 2026-06-10
+type: summary
+tags: ['llm', 'ai-business']
+sources: []
+---
+
 # AI 전쟁은 모델을 넘어섰다 — 칩·전력·추론·피지컬 AI의 다음 병목
 
 > Asia2G Capital BeyondAsiaTechSummit 참관기 | 안될공학 - IT 테크 신기술 | 2026년 6월

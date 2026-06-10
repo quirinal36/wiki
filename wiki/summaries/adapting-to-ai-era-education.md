@@ -15,4 +15,4 @@ sources: ['raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응
 - 불편을 해결하는 문제해결력 강화.
 - AI를 활용한 서비스 창출 및 마케팅 능력 배양.
 
-See also: [[vibe-coding]], [[letstrade]]
+See also: [[vibe-coding]], [[letstrade-pipeline]]
