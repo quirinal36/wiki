@@ -1,33 +1,19 @@
 ---
-title: ChatGPT and the New Reality for Coding Academies
-created: 2026-04-21
-updated: 2026-04-21
+title: ChatGPT 출현 3.5년, 변화된 코딩 교육의 현실
+created: 2026-05-10
+updated: 2026-05-10
 type: summary
-tags: [education, workflow, product]
+tags: [education, workflow, ai-agents]
 sources:
   - raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md
-aliases: [ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들]
 ---
+# 요약
+자격증 중심의 암기 교육과 바이브코딩(프로젝트) 중심 교육의 대조적 현실 및 개발자 취업 시장의 변화.
 
-# ChatGPT and the New Reality for Coding Academies
+## 핵심 내용
+- **바이브코딩의 부상**: 문법 암기보다 AI 협업을 통한 프로젝트 제작 능력이 경쟁력임.
+- **취업 한파**: 전통적 개발 역량만으로는 한계가 온 AI 시대의 취업 시장.
 
-## What this source is
-A Korean opinion piece arguing that coding-academy education should move away from certification-first instruction and toward [[ai-service-building-curriculum]] focused on real products and shipped web projects.
-
-## Key takeaways
-- The article frames the core choice as exam preparation versus project creation.
-- AI has changed the labor market enough that syntax memorization alone is no longer a strong differentiator.
-- Students should build four capabilities: asking good questions, solving real problems, using AI to create services, and promoting their work.
-- The academy position in the article is explicit: it is no longer a pure computer-classroom or grammar-drill school.
-
-## Important claims
-- Certifications can be useful, but they should not be the end goal when the market rewards actual service building.
-- The article argues that long-term student success depends more on [[learner-agency]] than on rote preparation.
-- A coding academy can function as a practical [[school-as-learning-hub]] when it helps students turn ideas into working services.
-
-## Related pages
-- [[lets-coding-and-play]]
-- [[ai-service-building-curriculum]]
+## 관련 페이지
+- [[coding-syntax-drills-vs-vibe-coding]]
 - [[certification-track-vs-project-track]]
-- [[critical-ai-literacy]]
-- [[school-as-learning-hub]]

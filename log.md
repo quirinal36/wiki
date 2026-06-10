@@ -1,123 +1,133 @@
 # Wiki Log
 
-> Append-only record of wiki operations.
+> Chronological record of all wiki actions. Append-only.
+> Format: `## [YYYY-MM-DD] action | subject`
+> Actions: ingest, update, query, lint, create, archive, delete
+> When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
-## [2026-04-18] create | wiki initialized
-- Created AGENTS.md, index.md, log.md
-- Created raw/, wiki/, schema/ structure
+## [2026-05-16] maintenance | Daily Vault Maintenance
+- Scanned raw/ folder and found unprocessed notes.
+- Detected and ignored empty file: `raw/notes/무제.base`.
+- Ingested and summarized: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`.
+- Files created:
+  - `wiki/summaries/chatgpt-3.5-years-later.md`
+- Updated `index.md` with the new summary.
+- Verified wikilinks and source frontmatter entries.
 
-## [2026-04-19] setup | obsidian vault connected
-- Installed obsidian-headless CLI (`ob`)
-- Created working vault at `/mnt/c/Users/turbo/Documents/llm-wiki-vault`
-- Added `.obsidian/app.json` with attachments routed to `raw/images`
-- Created WSL shortcut path `/home/leehg/wiki`
-- Configured Hermes wiki path and `OBSIDIAN_VAULT_PATH`
+## [2026-05-17] maintenance | Vault Scan
+- Scanned raw/ folders; all files are already processed or referenced.
+- Detected and skipped empty/unactionable file: `raw/notes/무제.base`.
 
-## [2026-04-19] create | start page and core pages
-- Created `start-here.md`
-- Created `wiki/entities/hermes-agent.md`
-- Created `wiki/entities/trader-agent.md`
-- Created `wiki/concepts/llm-wiki.md`
-- Created `wiki/concepts/obsidian-workflow.md`
-- Updated `index.md` with first navigation links
+## [2026-05-18] maintenance | Vault Daily Batch
+- Processed 12 raw files from raw/notes/.
+- Created 6 summary pages and 1 concept page ([[vibe-coding]]).
+- Oriented on SCHEMA and index before creation.
+- Linked new pages across entities and concepts.
 
-## [2026-04-19] ingest | ai 시대 생존 전략
-- Source found at `raw/notes/ai 시대 생존 전략.md`
-- Created `wiki/summaries/ai-era-survival-strategy.md`
-- Created `wiki/entities/jang-dong-seon.md`
-- Created `wiki/concepts/critical-ai-literacy.md`
-- Created `wiki/concepts/ai-off-workflow.md`
-- Updated `schema/tag-taxonomy.md` to include `evaluation`
-- Updated `index.md`
+## [2026-05-20] maintenance | Daily Vault Maintenance Batch
+- Created summary: wiki/summaries/ai-winning-thought-process.md
+- Created summary: wiki/summaries/ai-era-brain-science-survival.md
+- Created summary: wiki/summaries/learner-agency-logic.md
+- Created summary: wiki/summaries/why-teach-coding.md
+- Created summary: wiki/summaries/coding-academy-shift.md
+- Created summary: wiki/summaries/excel-vs-ai-automation.md
+- Created summary: wiki/summaries/cs-major-rethink.md
 
-## [2026-04-19] query | parent notice draft for ai use guide
-- Created `wiki/queries/parent-notice-ai-use-guide.md`
-- Updated `index.md`
+## [2026-05-22] maintenance | Vault Scan
+- Scanned `raw/notes`, `raw/articles`, and `raw/papers`.
+- All 13 files in `raw/notes` are already referenced in wiki source frontmatter.
+- `raw/articles` and `raw/papers` are empty.
+- Detected non-empty placeholder: `raw/notes/무제.base` (contains Dataview table stub).
+- No new actionable content found.
 
-## [2026-04-19] ingest | ai 시대에 살아남는 학습자의 비밀
-- New unreferenced source detected at `raw/notes/AI 시대에 살아남는 학습자의 비밀.md`
-- Created `wiki/summaries/ai-era-learning-survival-secret.md`
-- Created `wiki/concepts/learner-agency.md`
-- Created `wiki/concepts/school-as-learning-hub.md`
-- Updated `schema/tag-taxonomy.md` to include `education` and `agency`
-- Updated `index.md`
+## [2026-05-23] maintenance | Processing New Raw Note
+- Ingested: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+- Created summary: [[summaries/chatgpt-anniversary-edu-shift|summaries/chatgpt-anniversary-edu-shift.md]]
+- Created concept: [[concepts/vibe-coding-education|concepts/vibe-coding-education.md]]
+- Updated `index.md` with new pages.
+- Verified no broken links.
 
-## [2026-04-19] scan | raw notes cleanup check
-- Found `raw/notes/0419 발행 블로그 글.md` but it is currently empty, so no wiki page was created
-- Verified newly added pages have no broken wikilinks
+## [2026-05-24] maintenance | Vault Daily Batch
+- Routine scan of `raw/` folders completed.
+- Verified 11 raw notes against existing wiki pages; all are already processed and linked in frontmatter.
+- Detected placeholder `raw/notes/무제.base` (contains Dataview stub), skipping as non-actionable.
+- Infrastructure check: `index.md`, `SCHEMA.md`, and `log.md` are consistent.
 
-## [2026-04-19] ingest | 성실함이 무기가 되지 않는 시대, AI를 이기는 '린치핀'과 '부족'의 전략
-- New unreferenced source detected at `raw/notes/ai 를 이기는 생각방법.md`
-- Created `wiki/summaries/linchpin-and-tribe-strategy.md`
-- Created `wiki/entities/seth-godin.md`
-- Created `wiki/concepts/linchpin-strategy.md`
-- Created `wiki/concepts/tribe-based-leadership.md`
-- Updated `index.md`
+## [2026-05-25] ingest | Strategy for Winning in the AI Era: Linchpins and Tribes
+- Source: `raw/notes/ai 를 이기는 생각방법.md`
+- Created: [[ai-strategy-linchpin-tribe]], [[seth-godin]], [[art-as-work-strategy]]
+- Detected placeholder `raw/notes/무제.base` as stub, ignoring.
 
-## [2026-04-19] query | long-term vault operating policy
-- Created `wiki/queries/long-term-vault-operating-policy.md`
-- Updated `index.md`
+## [2026-05-26] update | Daily maintenance
+- Ingested: raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md
+- Created: summaries/post-chatgpt-education-paradigm.md
+- Created: concepts/vibe-coding.md
 
-## [2026-04-20] scan | daily raw inbox maintenance
-- Compared raw files in `raw/notes`, `raw/articles`, and `raw/papers` against wiki page `sources:` entries
-- Detected `raw/notes/2026-04-20.md` but it is empty, so no wiki page was created
-- No new actionable non-empty raw files were found
+## [2026-05-27] maintenance | Batch Process Daily
+- Ingested: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+- Created summary: [[summaries/ai-education-paradigm-shift]]
+- Created concept: [[concepts/vibe-coding]]
+- Updated `index.md` and page counts.
+- Verified wikilinks and source frontmatter.
 
-## [2026-04-21] ingest | ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들
-- Source found at `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
-- Created `wiki/summaries/chatgpt-and-the-new-reality-for-coding-academies.md`
-- Created `wiki/entities/lets-coding-and-play.md`
-- Created `wiki/concepts/ai-service-building-curriculum.md`
-- Created `wiki/comparisons/certification-track-vs-project-track.md`
-- Updated `index.md`
-- Verified `raw/notes/2026-04-20.md` is empty; no wiki page was created
+## [2026-05-29] maintenance | Batch Process Daily
+- Ingested: raw/notes/ai 를 이기는 생각방법.md -> [[wiki/summaries/ai-시대-린치핀과-부족의-전략.md]]
 
-## [2026-04-22] scan | daily maintenance check
-- Compared raw files in `raw/notes`, `raw/articles`, and `raw/papers` against wiki `sources:` entries
-- Detected `raw/notes/2026-04-20.md` as empty; left it untouched
-- Detected `raw/cardnews/0419 발행 블로그 글.md` as empty; left it untouched
-- No actionable unprocessed raw files were found
 
-## [2026-04-23] create | new agent creation manual
-- Saved the user request into `raw/notes/2026-04-23-agent-creation-manual-request.md`
-- Created `wiki/queries/new-agent-creation-manual.md`
-- Created `wiki/queries/new-agent-creation-manual-source-link.md`
-- Updated `index.md`
+## [2026-05-29] maintenance | Automated Batch Ingest
+- Skipped empty file: raw/notes/ai 시대 생존 전략.md
+- Skipped empty file: raw/notes/AI 시대에 살아남는 학습자의 비밀.md
+- Skipped empty file: raw/notes/컴퓨터활용능력 자격증 앞으로도 필요할까.md
 
-## [2026-04-23] update | link manual and source note
-- Added cross-links between the raw request note and reusable manual via a helper wiki page
-- Preserved raw immutability by leaving the source note unchanged
 
-## [2026-04-23] create | Hermes agent registry
-- Created a living registry page for current Hermes profiles and gateway states
-- Added one-line purpose descriptions for each existing agent/profile
-- Updated `index.md` so the registry is discoverable from the main catalog
+## [2026-05-30] maintenance | Vault Clean
+- Scanned `raw/` directories: `raw/notes`, `raw/articles`, `raw/papers`.
+- No unreferenced/non-empty files found. Everything up to date.
 
-## [2026-04-23] create | operations records folder
-- Created `wiki/operations/` as a living folder for setup and development records
-- Added `nas-teacher-bind-persistence.md` for the Synology teacher path persistence setup
-- Added `operations/index.md` and linked the folder from the main catalog
+## [2026-05-31] maintenance | Ingested Educations Paradigm Note
+- Ingested: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+- Created: `summaries/chatgpt-impact-on-education.md`
+- Created/Updated: `concepts/vibecoding.md`
+- Created/Updated: `entities/lets-coding-play.md`
+- Updated: `index.md`
 
-## [2026-04-26] scan | daily maintenance check
-- Vault path: /mnt/c/Users/turbo/Documents/llm-wiki-vault
-- Raw file audit: All 5 raw files in raw/notes/ are referenced in wiki sources
-- Unprocessed files: 0 (all raw materials have been ingested)
-- Vault health: HEALTHY
-  - 26 wiki pages, all with valid YAML frontmatter
-  - All required frontmatter fields present (title, created, updated, type, tags, sources)
-  - No broken wikilinks found
-  - No orphan pages (all pages linked by index or other pages)
-  - No stale pages (all updated within last 90 days)
-  - No contradictions flagged
-  - Page sizes reasonable (all under 300 lines)
-- Raw directory structure: raw/notes (5 files), raw/articles (0 files), raw/papers (0 files)
-- No action required; vault is up-to-date and well-maintained
+## [2026-06-02] ingest | Batch maintenance run
+- Ingested: `raw/notes/2026-04-23-agent-creation-manual-request.md`
+  - Created: `queries/2026-04-23-agent-creation-manual-request-summary.md`
+- Ingested: `raw/notes/2026-04-27-letstrade-user-ticker-pipeline-runbook-request.md`
+  - Created: `queries/2026-04-27-letstrade-user-ticker-pipeline-runbook-request-summary.md`
+- Ingested: `raw/notes/2026-05-04-claw-empire-hermes-control-surface-mapping-request.md`
+  - Created: `queries/2026-05-04-claw-empire-hermes-control-surface-mapping-request-summary.md`
+- Ingested: `raw/notes/2026-05-04-hermes-agents-teams-web-ui-design-request.md`
+  - Created: `queries/2026-05-04-hermes-agents-teams-web-ui-design-request-summary.md`
+- Ingested: `raw/notes/2026-05-04-hermes-agents-teams-web-ui-instruction-request.md`
+  - Created: `queries/2026-05-04-hermes-agents-teams-web-ui-instruction-request-summary.md`
+- Ingested: `raw/notes/ai 시대 생존 전략.md`
+  - Created: `queries/ai-시대-생존-전략-summary.md`
+- Ingested: `raw/notes/AI 시대에 살아남는 학습자의 비밀.md`
+  - Created: `queries/ai-시대에-살아남는-학습자의-비밀-summary.md`
+- Ingested: `raw/notes/AI가 다 한다는데 그래도 코딩을 가르쳐야 할까요.md`
+  - Created: `queries/ai가-다-한다는데-그래도-코딩을-가르쳐야-할까요-summary.md`
+- Ingested: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+  - Created: `queries/chatgpt-가-출현하고-3년-6개월,-바뀐-세상-적응하지-못한-사람들-summary.md`
+- Ingested: `raw/notes/컴퓨터활용능력 자격증 앞으로도 필요할까.md`
+  - Created: `queries/컴퓨터활용능력-자격증-앞으로도-필요할까-summary.md`
+- Ingested: `raw/notes/학생들에게 컴퓨터학과에 가지 않기를 조언합니다..md`
+  - Created: `queries/학생들에게-컴퓨터학과에-가지-않기를-조언합니다.-summary.md`
 
-## [2026-04-27] create | letsTrade user ticker pipeline runbook
-- Saved the request context into `raw/notes/2026-04-27-letstrade-user-ticker-pipeline-runbook-request.md`
-- Created `wiki/queries/letstrade-user-ticker-pipeline-runbook.md`
-- Updated `wiki/agents/letstrade-pipeline.md` to use user-provided ticker numbers and remove fallback ticker behavior
-- Added the new runbook to `index.md`
-- Documented the gpt-5.4-mini / openai-codex execution pattern and auth reset troubleshooting
-- Added a reusable standard execution prompt template for user-provided ticker runs
+## [2026-06-09] maintenance | Daily Vault Reconciliation
+- Scanned raw/ directories: `raw/notes`, `raw/articles`, `raw/papers`.
+- All non-empty raw files in `raw/notes` are already referenced in wiki source frontmatter.
+- Detected and ignored empty placeholder files:
+  - `raw/notes/2026-06-08.md`
+  - `raw/notes/hermes-agent-skill-authoring.md`
+  - `raw/notes/notebooklm-workflow.md`
+  - `raw/notes/obsidian.md`
+- Vault is internally consistent. No new content to process.
 
+## [2026-06-10] ingest | Education shift post-ChatGPT
+- Processed non-empty source: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+- Created summary: `summaries/shift-in-education-labor-post-chatgpt.md`
+- Created concepts: `concepts/vibe-coding.md`, `concepts/ai-assisted-education.md`
+- Detected and recorded empty placeholders: `2026-06-08.md`, `hermes-agent-skill-authoring.md`, `notebooklm-workflow.md`, `obsidian.md` (no pages created)
+- Updated `index.md` and `log.md`.

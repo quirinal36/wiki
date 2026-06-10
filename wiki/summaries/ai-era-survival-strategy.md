@@ -1,36 +1,19 @@
 ---
-title: AI Era Survival Strategy
-created: 2026-04-19
-updated: 2026-04-19
+title: 뇌과학자가 말하는 AI 시대 생존 전략
+created: 2026-05-10
+updated: 2026-05-10
 type: summary
-tags: [research, workflow, llm, memory]
+tags: [education, research, ai-agents]
 sources:
   - raw/notes/ai 시대 생존 전략.md
-aliases: [ai 시대 생존 전략]
 ---
+# 요약
+장동선 박사의 통찰을 통해 AI 맹신이 뇌 인지 기능에 미치는 영향과 주도적인 AI 활용법을 제시함.
 
-# AI Era Survival Strategy
+## 핵심 내용
+- **저항이 적은 경로**: 인간의 뇌는 에너지를 아끼기 위해 AI의 답변을 맹목적으로 믿는 경향이 있음.
+- **AI 활용 vs AI에 피동**: 사고 기능을 퇴화시키지 않고 AI를 도구로 부리는 주체성 강조.
 
-## What this source is
-A Korean article summarizing neuroscientist [[jang-dong-seon]]'s argument that children must learn to question AI critically instead of treating it as an unquestionable answer machine.
-
-## Key takeaways
-- AI outputs are not neutral truth; they reflect the bias of their training data.
-- Passive AI use weakens memory, metacognition, and ownership of thinking.
-- Memorization-centered exams are increasingly misaligned with the AI era.
-- Strong students use multiple tools for cross-checking and then finish work with an [[ai-off-workflow]].
-- Long-term survival depends on [[critical-ai-literacy]], not convenience alone.
-
-## Important claims
-- AI should be treated as a biased mirror, not a perfect answer sheet.
-- The article cites an MIT essay experiment to argue that AI-assisted writers showed severe recall failure when they did not internalize the work.
-- The real educational divide is no longer access to answers, but whether students can verify, synthesize, and rewrite ideas in their own language.
-- AI education should begin more like driver training: ethics, risk awareness, and supervised practice before unrestricted use.
-
-## Related entities and concepts
+## 관련 페이지
 - [[jang-dong-seon]]
 - [[critical-ai-literacy]]
-- [[ai-off-workflow]]
-
-## Notes for this wiki
-This source is valuable because it connects bias, cognition, workflow, and education into one practical framework for AI use.

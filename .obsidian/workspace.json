@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "b5abd49288786a7b",
+        "id": "92803e1f1db95ef6",
         "type": "tabs",
         "children": [
           {
-            "id": "e48743bee6c6b689",
+            "id": "ee7229f071a9340e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/notes/학생들에게 컴퓨터학과에 가지 않기를 조언합니다..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "학생들에게 컴퓨터학과에 가지 않기를 조언합니다."
-            }
-          },
-          {
-            "id": "c35e0e24d4b994cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "raw/notes/2026-04-27-letstrade-user-ticker-pipeline-runbook-request.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-04-27-letstrade-user-ticker-pipeline-runbook-request"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "그래프 뷰"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -93,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 442.5
   },
   "right": {
     "id": "5117bb3e0529d1c9",
@@ -198,36 +179,42 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "c35e0e24d4b994cb",
+  "active": "3b22e87e7b828f09",
   "lastOpenFiles": [
-    "raw/notes/컴퓨터활용능력 자격증 앞으로도 필요할까.md",
-    "raw/notes/학생들에게 컴퓨터학과에 가지 않기를 조언합니다..md",
-    "wiki/queries/letstrade-user-ticker-pipeline-runbook.md",
-    "wiki/agents/letstrade-pipeline.md",
-    "raw/notes/2026-04-27-letstrade-user-ticker-pipeline-runbook-request.md",
-    "wiki/agents/skill-feed-collector.md",
-    "wiki/agents/skill-ls-broker.md",
-    "SOUL.md",
-    "무제.canvas",
-    "wiki/operations/index.md",
-    "wiki/operations/nas-teacher-bind-persistence.md",
-    "wiki/operations",
+    "summaries/2026-06-09-hermes-multi-profile-meeting.md",
+    "concepts/selfish-club-aaa-playbook.md",
+    "시설관리/전등_교체_제품_정보.md",
+    "시설관리",
+    "summaries/2026-06-09-jack-dorsey-block-mini-agi.md",
+    "media/잭도시-미니AGI-팟캐스트.mp4",
+    "media/AI_전쟁은_모델을_넘어섰다_podcast.mp4",
+    "media/2026-06-07-hermes-agent-podcast-ko.mp4",
+    "블로그-업로드용-템플릿.md",
+    "wiki/agents/hermes-skills-overview.md",
     "wiki/queries/hermes-agent-registry.md",
-    "start-here.md",
-    "README.md",
-    "log.md",
-    "index.md",
+    "wiki/queries/new-agent-creation-manual-source-link.md",
+    "wiki/queries/new-agent-creation-manual.md",
+    "summaries/AI_전쟁은_모델을_넘어섰다_report_en.md",
+    "summaries/AI_전쟁은_모델을_넘어섰다_요약.md",
+    "summaries/2026-06-07-hermes-agent-video-analysis.md",
+    "summaries/2026-06-07-hermes-agent-video-review.md",
+    "raw/notes/2026-06-08.md",
     "AGENTS.md",
-    "wiki/concepts/ai-service-building-curriculum.md",
-    "raw/notes/2026-04-23-agent-creation-manual-request.md",
-    "raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md",
-    "wiki/concepts/school-as-learning-hub.md",
-    "wiki/concepts/tribe-based-leadership.md",
-    "wiki/concepts/obsidian-workflow.md",
-    "wiki/concepts/learner-agency.md",
-    "schema/tag-taxonomy.md",
-    "schema/page-types.md",
-    "schema/frontmatter-example.md",
+    "raw/notes/obsidian.md",
+    "raw/notes/hermes-agent-skill-authoring.md",
+    "raw/notes/notebooklm-workflow.md",
+    "media/2026-06-07-hermes-agent-podcast.mp4",
+    "edudata/00_Dashboard.md",
+    "edudata/03_Meetings/2026-05-13_초기설정.md",
+    "edudata/02_Development/셋업_가이드.md",
+    "edudata/02_Development/작업_로그/2026-05-13_초기셋업.md",
+    "wiki/operations/index.md",
+    "2026-05-30-인공지능-데이터-기록-템플릿.md",
+    "edudata/01_Planning/아키텍처_설계.md",
+    "edudata/01_Planning/요구사항_정의서.md",
+    "raw/notes/무제.base",
+    "무제.canvas",
+    "wiki/operations",
     "raw/cardnews"
   ]
 }

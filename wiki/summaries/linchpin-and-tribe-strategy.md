@@ -1,38 +1,21 @@
 ---
-title: Linchpin and Tribe Strategy
-created: 2026-04-19
-updated: 2026-04-19
+title: 성실함이 무기가 되지 않는 시대, AI를 이기는 '린치핀'과 '부족'의 전략
+created: 2026-05-10
+updated: 2026-05-10
 type: summary
-tags: [research, ai-business, agency, workflow]
+tags: [ai-business, strategy, automation]
 sources:
   - raw/notes/ai 를 이기는 생각방법.md
-aliases: [성실함이 무기가 되지 않는 시대, AI를 이기는 '린치핀'과 '부족'의 전략]
 ---
+# 요약
+AI 시대의 대체 불가능한 존재가 되기 위한 '린치핀(Linchpin)' 전략과 신뢰 중심의 '부족(Tribes)' 전략을 다룸.
 
-# Linchpin and Tribe Strategy
+## 핵심 내용
+- **대체 가능성의 공포**: AI가 매뉴얼화된 성실함을 완벽히 대체함.
+- **린치핀 전략**: 조직에서 없어서는 안 될 핵심 축이 되는 비전형적 기여.
+- **부족(Tribes) 경영**: 연결과 신뢰를 바탕으로 한 소규모 공동체 리더십.
 
-## What this source is
-A strategic essay arguing that AI will absorb manualized work, so human advantage must shift toward irreplaceable contribution, courageous leadership, and small but highly committed communities.
-
-## Key takeaways
-- Routine diligence is no longer enough when AI can execute the manual faster and more consistently.
-- The defensible position is to become a [[linchpin-strategy|linchpin]]: someone who creates non-template value through judgment, connection, and initiative.
-- Sustainable influence comes less from mass reach and more from building a committed [[tribe-based-leadership|tribe]] around a clear value proposition.
-- Leadership is framed as action before charisma, not charisma before action.
-- The source complements [[learner-agency]] by extending self-directed growth into contribution, leadership, and community formation.
-
-## Important claims
-- If a job can be fully documented as a repeatable manual, AI is likely to absorb most of its value.
-- Human differentiation now depends on art-like contribution, relationship-making, and movement-building.
-- Smaller but trust-rich groups can be more durable than broad, shallow audiences.
-- Fear and conformity are major bottlenecks; the source treats them as problems to design around rather than permanent limits.
-
-## Related entities and concepts
-- [[seth-godin]]
+## 관련 페이지
 - [[linchpin-strategy]]
 - [[tribe-based-leadership]]
-- [[critical-ai-literacy]]
-- [[learner-agency]]
-
-## Notes for this wiki
-This source pushes the vault's education-oriented AI discussion toward positioning, leadership, and community design in an AI-saturated environment.
+- [[seth-godin]]
