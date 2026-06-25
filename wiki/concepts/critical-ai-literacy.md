@@ -28,4 +28,4 @@ Critical AI Literacy is the ability to use AI while continuously questioning its
 ## Related pages
 - [[jang-dong-seon]] frames this as a core educational challenge.
 - [[ai-off-workflow]] is one concrete practice that supports this literacy.
-- [[ai-era-survival-strategy]] is the source summary that introduced this concept to the wiki.
+- [[ai-era-brain-science-survival]] is the source summary that introduced this concept to the wiki.

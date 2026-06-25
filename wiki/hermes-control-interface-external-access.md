@@ -1,3 +1,12 @@
+---
+title: Hermes Control Interface — 외부 네트워크 접속 설정
+type: query
+created: 2026-06-10
+updated: 2026-06-25
+tags: [hermes, operations, network]
+status: active
+---
+
 # Hermes Control Interface — 외부 네트워크 접속 설정
 
 ## 목표

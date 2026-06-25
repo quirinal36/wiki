@@ -31,4 +31,4 @@ A Korean essay arguing that syntax-first programming education is being overtake
 - [[ai-service-building-curriculum]]
 - [[lets-coding-and-play]]
 - [[school-as-learning-hub]]
-- [[chatgpt-and-the-new-reality-for-coding-academies]]
+- [[chatgpt-3.5-years-later]]

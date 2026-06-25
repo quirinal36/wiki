@@ -24,4 +24,4 @@ In the context of the AI era, 'Art' is defined as the human element of work that
 
 ## Connections
 - [[seth-godin]]
-- [[ai-strategy-linchpin-tribe]]
+- [[linchpin-and-tribe-strategy]]

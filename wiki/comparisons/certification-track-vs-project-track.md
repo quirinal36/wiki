@@ -35,7 +35,7 @@ The article clearly favors the project track when the goal is future readiness, 
 The parent-facing essay adds one more layer: coding can still matter as thinking training, but that value should be paired with problem solving and self-direction rather than exam-only drill.
 
 ## Related pages
-- [[chatgpt-and-the-new-reality-for-coding-academies]]
+- [[chatgpt-3.5-years-later]]
 - [[ai-service-building-curriculum]]
 - [[lets-coding-and-play]]
 - [[coding-syntax-drills-vs-vibe-coding]]

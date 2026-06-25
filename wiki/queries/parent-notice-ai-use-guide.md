@@ -14,7 +14,7 @@ sources:
 이 문서를 바탕으로 학부모 안내문 초안 작성
 
 ## Short answer
-Below is a parent-facing notice draft based on [[ai-era-survival-strategy]], emphasizing [[critical-ai-literacy]] and the [[ai-off-workflow]].
+Below is a parent-facing notice draft based on [[ai-era-brain-science-survival]], emphasizing [[critical-ai-literacy]] and the [[ai-off-workflow]].
 
 ## Draft
 안녕하세요, 학부모님.
@@ -56,7 +56,7 @@ This draft turns the source argument into a school-parent communication format. 
 The notice is intentionally practical and non-alarmist so it can be sent as a classroom or academy message without sounding anti-technology.
 
 ## Supporting wiki pages
-- [[ai-era-survival-strategy]]
+- [[ai-era-brain-science-survival]]
 - [[critical-ai-literacy]]
 - [[ai-off-workflow]]
 - [[jang-dong-seon]]

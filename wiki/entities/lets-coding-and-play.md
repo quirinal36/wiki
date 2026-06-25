@@ -1,7 +1,7 @@
 ---
 title: 렛츠코딩앤플레이
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-06-25
 type: entity
 tags: [company, education, product]
 sources:
@@ -23,9 +23,13 @@ aliases: [Let's Coding & Play, 렛츠코딩앤플레이 학원]
 - Reduce dependence on certification-only outcomes.
 - Teach students to use AI as a builder's tool.
 - Move toward startup-style project execution and communication.
+- 교육 엔진으로 [[vibe-coding-education|바이브코딩 교육론]]을 채택.
+
+## 학생 프로젝트
+- 2026년 AI 손동작 인식 수어 번역 프로그램 등 실습 중심 결과물.
 
 ## Related pages
-- [[chatgpt-and-the-new-reality-for-coding-academies]]
+- [[chatgpt-3.5-years-later]]
 - [[ai-service-building-curriculum]]
 - [[certification-track-vs-project-track]]
 - [[school-as-learning-hub]]

@@ -31,7 +31,7 @@ AI service-building curriculum is an education model in which students use AI to
 
 ## Related pages
 - [[lets-coding-and-play]]
-- [[chatgpt-and-the-new-reality-for-coding-academies]]
+- [[chatgpt-3.5-years-later]]
 - [[certification-track-vs-project-track]]
 - [[school-as-learning-hub]]
 - [[should-we-still-teach-coding]]

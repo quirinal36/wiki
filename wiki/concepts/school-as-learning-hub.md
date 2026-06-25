@@ -26,4 +26,4 @@ School as Learning Hub is the idea that schools should stop acting primarily as 
 ## Related pages
 - [[learner-agency]] explains the student capability this model tries to grow.
 - [[critical-ai-literacy]] is needed so students use external tools wisely.
-- [[ai-era-learning-survival-secret]] summarizes the source that motivated this page.
+- [[ai-learner-secrets]] summarizes the source that motivated this page.

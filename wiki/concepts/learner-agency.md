@@ -27,4 +27,4 @@ Learner Agency is the ability of a student to actively shape goals, choose resou
 ## Related pages
 - [[school-as-learning-hub]] describes the kind of institution that supports agency.
 - [[critical-ai-literacy]] helps agency stay thoughtful rather than gullible.
-- [[ai-era-learning-survival-secret]] is the source summary that introduced this concept here.
+- [[ai-learner-secrets]] is the source summary that introduced this concept here.
