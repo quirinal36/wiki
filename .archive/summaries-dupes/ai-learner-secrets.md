@@ -15,4 +15,4 @@ sources: ['raw/notes/AI 시대에 살아남는 학습자의 비밀.md']
 - **학습자 그룹**: 표준 교육에 안주하는 그룹 A, 외부 자원을 조립하는 그룹 B, 도구로 회피를 배우는 그룹 C.
 - **학교의 역할**: 지식 전달자가 아닌 '학습 허브' 및 '큐레이터'로 재정의 필요.
 
-See also: [[ai-survival-strategy-neuroscience]]
+See also: [[ai-era-brain-science-survival]]

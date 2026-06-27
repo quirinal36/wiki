@@ -26,4 +26,4 @@ ChatGPT 등장 이후 3년 6개월이 지난 시점에서, 기존의 문법 중�
 - [[lets-coding-and-play]] — 학원의 교육 철학과 정체성
 - [[ai-service-building-curriculum]] — 서비스 제작 중심 커리큘럼
 - [[certification-track-vs-project-track]] — 자격증 vs 프로젝트 트랙 비교
-- [[summaries/coding-academy-shift]] — 유사한 주제의 교육 전환 요약
+- [[chatgpt-3.5-years-later]] — 유사한 주제의 교육 전환 요약

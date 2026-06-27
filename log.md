@@ -42,7 +42,11 @@
 
 ## [2026-05-23] maintenance | Processing New Raw Note
 - Ingested: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+<<<<<<< HEAD
 - Created summary: [[summaries/chatgpt-and-the-new-reality-for-coding-academies|summaries/chatgpt-and-the-new-reality-for-coding-academies.md]]
+=======
+- Created summary: [[chatgpt-3.5-years-later|summaries/chatgpt-anniversary-edu-shift.md]]
+>>>>>>> 5678dc7f96a253d9b93937b99c43e1388b434147
 - Created concept: [[concepts/vibe-coding-education|concepts/vibe-coding-education.md]]
 - Updated `index.md` with new pages.
 - Verified no broken links.
@@ -65,13 +69,21 @@
 
 ## [2026-05-27] maintenance | Batch Process Daily
 - Ingested: `raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md`
+<<<<<<< HEAD
 - Created summary: [[summaries/chatgpt-and-the-new-reality-for-coding-academies]]
+=======
+- Created summary: [[chatgpt-3.5-years-later]]
+>>>>>>> 5678dc7f96a253d9b93937b99c43e1388b434147
 - Created concept: [[concepts/vibe-coding]]
 - Updated `index.md` and page counts.
 - Verified wikilinks and source frontmatter.
 
 ## [2026-05-29] maintenance | Batch Process Daily
+<<<<<<< HEAD
 - Ingested: raw/notes/ai 를 이기는 생각방법.md -> [[summaries/linchpin-and-tribe-strategy]]
+=======
+- Ingested: raw/notes/ai 를 이기는 생각방법.md -> [[linchpin-and-tribe-strategy]]
+>>>>>>> 5678dc7f96a253d9b93937b99c43e1388b434147
 
 
 ## [2026-05-29] maintenance | Automated Batch Ingest
@@ -132,6 +144,7 @@
 - Detected and recorded empty placeholders: `2026-06-08.md`, `hermes-agent-skill-authoring.md`, `notebooklm-workflow.md`, `obsidian.md` (no pages created)
 - Updated `index.md` and `log.md`.
 
+<<<<<<< HEAD
 ## [2026-06-24] maintenance | Daily vault reconciliation
 - raw/notes/2026-06-08.md: Detected but empty/blank. Skipped.
 - ingested | ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들 (from raw/notes/ChatGPT 가 출현하고 3년 6개월, 바뀐 세상 적응하지 못한 사람들.md)
@@ -157,3 +170,45 @@
   - canonical: chatgpt-and-the-new-reality-for-coding-academies, linchpin-and-tribe-strategy, advice-against-computer-science-majors, computer-utilization-certification-and-ai-spreadsheets, ai-era-survival-strategy, ai-era-learning-survival-secret, should-we-still-teach-coding
 - 마무리: index.md 전체 재생성(폴더/타입별), 깨진 링크 스캔·수정(ai-assisted-learning→ai-assisted-education, letstrade→letstrade-pipeline).
 - 남은 알려진 이슈: hermes-empire 미해결 링크(기존부터), concepts에 vibe-coding 3종 중복(vibe-coding/vibecoding/vibe-coding-education) — 차기 정리 후보.
+=======
+## [2026-06-10] ingest | Karpathy LLM Wiki pattern — knowledge management strategy
+- Source read: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f (llm-wiki.md)
+- Created concept page: `wiki/concepts/knowledge-management-strategy.md`
+  - Documents core philosophy (compounding wiki vs RAG), human/agent division of labor, 3-layer architecture, Ingest/Query/Lint operations, non-negotiable rules, and current vault state + cleanup plan.
+- Strategy also saved to agent persistent memory.
+- Next step proposed: run a full lint pass to fix index completeness, orphans, and nested-path duplication.
+
+## [2026-06-10] lint | Full vault cleanup & restructure
+- Diagnosis: vault had two parallel structures (root `summaries/concepts/entities/queries` vs canonical `wiki/...`). Content similarity analysis showed they were NOT duplicates (<0.55 similarity) but distinct unique content.
+- Consolidation: `git mv` of 46 root content pages into canonical `wiki/` structure. 2 filename collisions preserved as `-alt` (`lets-coding-and-play-alt`, `seth-godin-alt`).
+- Archived 4 empty placeholder files from `raw/notes/` to `_archive/raw/notes/`.
+- Removed now-empty root dirs: `summaries/`, `concepts/`, `entities/`, `queries/`.
+- Fixed 28 broken wikilinks: escaped skill links, empty `[[concepts]]`/`[[entities]]` placeholders removed, `media/*.mp4` links → inline code, remapped stale targets to existing pages.
+- Added YAML frontmatter to 10 pages that lacked it.
+- Regenerated `index.md` from scratch: 96 pages cataloged across 7 type sections (concepts, entities, comparisons, summaries, queries, agents, operations) + pointer section for edudata/시설관리/blog templates.
+- Final lint: broken_links=0, frontmatter_missing=0, empty_files=0. Remaining: 44 pages reachable only via index (no page-to-page inbound) — to be cross-linked incrementally during future ingest/query.
+- edudata/, 시설관리/, root Korean blog templates left untouched (separate projects).
+
+## [2026-06-25] lint | Vault 헬스체크 및 중복 통합
+- 전체 lint 실행: 깨진 링크, 고립 노트, 중복, frontmatter, index 정합성 점검.
+- 중복 통합: 같은 원본을 요약한 중복 노트 33개 삭제(원본당 1개 canonical 유지).
+  - summaries/ 22개 삭제: ChatGPT 교육(9→1), 린치핀·부족(5→1), 생존전략·학습자비밀·컴활·컴퓨터학과·코딩교육(각 3→1).
+  - concepts/ 1개 삭제: vibecoding → vibe-coding 통합.
+  - entities/ 3개 삭제: lets-coding-and-play(3→1, 수어번역 프로젝트 병합), seth-godin(2→1).
+  - queries/ 7개 삭제: 한글 article-summary 중복 → summaries canonical로 통합.
+- 링크 재연결: 17개 파일의 wikilink를 canonical 노트로 갱신.
+- index.md 재생성: 총 페이지 96(표기)/100 → 67로 정정, 한 줄 요약 갱신.
+- frontmatter 추가: hermes-control-interface-external-access.md.
+- 참고: agent/letstrade/hermes-web-ui/claw-empire 등 운영 request 요약 중복은 보존(추가 검토 권장).
+- wiki md: 100 → 67. (git 추적, 복구 가능)
+
+## [2026-06-25] ingest | AI 시대의 대전환 브리핑
+- raw/articles/2026-06-25-ai-transformation-industry-labor-talent.md 저장 (원문 보존).
+- summaries/ai-era-transformation-industry-labor-talent.md 생성 (산업·노동·인재·교육 4축 요약).
+- 신규 개념 3개 생성:
+  - concepts/frontier-ecosystem.md (프런티어 생태계, 나델라)
+  - concepts/four-muscles-generalist.md (4대 근육·제너럴리스트, 최태원)
+  - concepts/end-of-work-uhi.md (노동의 종말·UHI, 머스크)
+- 기존 노트 연결: linchpin-strategy, critical-ai-literacy, art-as-work-strategy, learner-agency, ai-assisted-education, llm-wiki, AI_전쟁은_모델을_넘어섰다_요약.
+- index.md 갱신.
+>>>>>>> 5678dc7f96a253d9b93937b99c43e1388b434147

@@ -28,4 +28,4 @@ AI-Off Workflow is a practice where a user uses AI to gather and organize ideas,
 ## Related pages
 - [[critical-ai-literacy]] explains why this workflow is necessary.
 - [[jang-dong-seon]] argues for this kind of human re-internalization.
-- [[ai-era-survival-strategy]] summarizes the source that motivated this page.
+- [[ai-era-brain-science-survival]] summarizes the source that motivated this page.

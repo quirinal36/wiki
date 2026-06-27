@@ -84,8 +84,8 @@ skills:
 
 | Skill | 파일 | 핵심 기능 |
 |-------|------|---------|
-| [[skill-feed-collector\|feed-collector]] | `skills/feed-collector/SKILL.md` | Supabase에서 뉴스·트렌딩·종목 매칭 조회 |
-| [[skill-ls-broker\|ls-broker]] | `skills/ls-broker/SKILL.md` | LS증권 계좌 잔고·실시간 현재가·주문 내역 조회 |
+| [[skill-feed-collector|feed-collector]] | `skills/feed-collector/SKILL.md` | Supabase에서 뉴스·트렌딩·종목 매칭 조회 |
+| [[skill-ls-broker|ls-broker]] | `skills/ls-broker/SKILL.md` | LS증권 계좌 잔고·실시간 현재가·주문 내역 조회 |
 
 ---
 

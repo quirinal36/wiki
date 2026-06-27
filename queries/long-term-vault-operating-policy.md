@@ -100,7 +100,7 @@ This document defines the long-term operating policy for the current Obsidian/LL
   - `wiki/queries/`
 - Use tags from `schema/tag-taxonomy.md`.
 - Use stable lowercase hyphenated filenames when possible.
-- Preserve the same summary/entity/concept/query writing style used by current pages such as [[ai-era-survival-strategy]], [[learner-agency]], and [[parent-notice-ai-use-guide]].
+- Preserve the same summary/entity/concept/query writing style used by current pages such as [[ai-era-brain-science-survival]], [[learner-agency]], and [[parent-notice-ai-use-guide]].
 
 ## Policy 5. Use automation mainly for reconciliation and hygiene
 ### Rule
@@ -139,5 +139,5 @@ This vault should behave less like a pile of notes and more like a maintained op
 - [[obsidian-workflow]]
 - [[critical-ai-literacy]]
 - [[learner-agency]]
-- [[ai-era-survival-strategy]]
-- [[ai-era-learning-survival-secret]]
+- [[ai-era-brain-science-survival]]
+- [[ai-learner-secrets]]

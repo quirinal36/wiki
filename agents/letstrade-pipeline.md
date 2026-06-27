@@ -163,8 +163,8 @@ wait
 
 | Skill | 사용 Agent |
 |-------|-----------|
-| [[skill-feed-collector\|feed-collector]] | `news`, `sector`, `fundamental`, `sentiment` |
-| [[skill-ls-broker\|ls-broker]] | `lets_manager`, `technical`, `trader`, `aggressive`, `neutral`, `conservative` |
+| [[skill-feed-collector|feed-collector]] | `news`, `sector`, `fundamental`, `sentiment` |
+| [[skill-ls-broker|ls-broker]] | `lets_manager`, `technical`, `trader`, `aggressive`, `neutral`, `conservative` |
 
 ---
 

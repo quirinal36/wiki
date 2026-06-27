@@ -27,4 +27,4 @@ Jang Dong-seon is presented in this source as a neuroscientist arguing that AI-e
 ## Relationships
 - [[critical-ai-literacy]] captures the habit of checking source, bias, and applicability.
 - [[ai-off-workflow]] describes the final human-authored step needed for internalization.
-- [[ai-era-survival-strategy]] summarizes the full argument from the source.
+- [[ai-era-brain-science-survival]] summarizes the full argument from the source.
