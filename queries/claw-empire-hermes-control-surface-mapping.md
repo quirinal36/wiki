@@ -124,7 +124,7 @@ This keeps the UI stable even if Hermes internals change.
 
 ## Relationship to existing docs
 
-- [[instruction]] explains how to continue the work.
+- [[hermes-web-ui-instruction-guide]] explains how to continue the work.
 - [[hermes-agents-teams-web-ui-design]] explains the target control-plane shape.
 - [[hermes-agent]] explains the runtime operator role.
 - [[llm-wiki]] explains how to maintain the vault itself.

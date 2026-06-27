@@ -25,4 +25,4 @@ ChatGPT 출현 이후 코딩 교육의 목적이 단순 문법 습득이나 자�
 
 ## 관련 연결
 - [[vibecoding]]: AI 시대의 새로운 소프트웨어 개발 방법론
-- [[lets-coding-play]]: AI 서비스 제작 중심의 혁신 교육 기관
+- [[lets-coding-and-play]]: AI 서비스 제작 중심의 혁신 교육 기관

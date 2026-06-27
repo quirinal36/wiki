@@ -71,7 +71,7 @@
 - Verified wikilinks and source frontmatter.
 
 ## [2026-05-29] maintenance | Batch Process Daily
-- Ingested: raw/notes/ai 를 이기는 생각방법.md -> [[summaries/linchpin-and-tribe-strategy]]
+- Ingested: raw/notes/ai 를 이기는 생각방법.md -> [[wiki/summaries/ai-시대-린치핀과-부족의-전략.md]]
 
 
 ## [2026-05-29] maintenance | Automated Batch Ingest
@@ -138,22 +138,3 @@
 - raw/notes/hermes-agent-skill-authoring.md: Detected but empty/blank. Skipped.
 - raw/notes/notebooklm-workflow.md: Detected but empty/blank. Skipped.
 - raw/notes/obsidian.md: Detected but empty/blank. Skipped.
-                    
-## [2026-06-24] restructure | 폴더 구조 SOUL 기준 통일 + 중복 정리
-- 안전 백업: `_backup/vault-snapshot-*.tgz` 생성 (rm 불가 마운트라 삭제 대신 _archive 사용).
-- Phase 1 — 폴더 통일: `wiki/` 하위를 루트로 승격.
-  - wiki/concepts→concepts, wiki/comparisons→comparisons, wiki/queries→queries
-  - wiki/agents→agents, wiki/operations→operations(+hermes-control-interface 파일)
-  - wiki/entities→entities, wiki/summaries→summaries
-  - edudata·시설관리→projects/, 루트 템플릿 md 3종→templates/
-  - 빈 wiki/ 트리는 _archive/wiki-empty로 이동.
-- Phase 2 — basename 충돌 5건 해결:
-  - entities/seth-godin: 2개 병합 → 1개(canonical, 풍부한 버전 기준).
-  - entities/lets-coding-and-play: 3개(and-play/play/wiki) 병합 → 1개. 끊긴 링크 lets-coding-play→lets-coding-and-play 수정.
-  - instruction.md 충돌: 상세본→queries/hermes-web-ui-instruction-guide.md, 빈약본 보관. 기존 instruction 링크 수정.
-  - letstrade runbook 충돌: 상세 query→queries/, 짧은 summary→summaries/letstrade-ticker-run-record.md.
-  - agents/operations 서브 index.md→<folder>-index.md로 개명.
-- Phase 3 — summaries 중복 통합: 7개 원본 기사에 흩어진 31개 요약을 원본별 1개 canonical로 통합. 23개를 _archive/summaries-dupes로 보관. inbound 링크 전부 canonical로 재연결. (coding-syntax-drills-vs-vibe-coding는 comparison 성격이라 별도 유지)
-  - canonical: chatgpt-and-the-new-reality-for-coding-academies, linchpin-and-tribe-strategy, advice-against-computer-science-majors, computer-utilization-certification-and-ai-spreadsheets, ai-era-survival-strategy, ai-era-learning-survival-secret, should-we-still-teach-coding
-- 마무리: index.md 전체 재생성(폴더/타입별), 깨진 링크 스캔·수정(ai-assisted-learning→ai-assisted-education, letstrade→letstrade-pipeline).
-- 남은 알려진 이슈: hermes-empire 미해결 링크(기존부터), concepts에 vibe-coding 3종 중복(vibe-coding/vibecoding/vibe-coding-education) — 차기 정리 후보.

@@ -19,4 +19,4 @@ ChatGPT 등 생성형 AI의 대중화 이후 3년 6개월이 지난 시점에서
 
 ## 관련 연결
 - [[concepts/vibecoding|바이브코딩]]
-- [[entities/lets-coding-play|렛츠코딩앤플레이]]
+- [[entities/lets-coding-and-play|렛츠코딩앤플레이]]
