@@ -6,6 +6,16 @@
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
 ## [2026-07-17] create | Auto Wiki Collector 시스템 구축
+
+## [2026-07-17] update + create | 바이브코딩 브릿지 비전 수집 (대화 인사이트)
+- **Type 1 (대화 인사이트)** 자동 수집 — 레코님의 바이브코딩 비전 선언
+- 업데이트된 페이지:
+  - `concepts/vibe-coding.md` — ERP 논쟁(찬성/반대), Zoho vs YC 설전, 산업 영향 추가, conflict marker 제거
+  - `concepts/vibe-coding-education.md` — AX 컨설턴트 양성, 브릿지 교육 연결 추가
+  - `entities/lets-coding-and-play.md` — stub 해제, 브릿지 비전·사업 방향·교육 철학 추가
+- 신규 생성된 페이지:
+  - `concepts/vibe-coding-bridge-vision.md` — 비개발자↔개발자 브릿지 전략 (디지털 주권·AX 컨설턴트)
+- `index.md` 업데이트 (총 페이지: 59 → 60)
 - **Type 1 (대화 인사이트)** + **Type 3 (프로젝트 정보)** 자동 수집
 - Skill 생성: `~/.hermes/profiles/yellow/skills/productivity/auto-wiki-collector/SKILL.md`
 - Yellow AGENTS.md §6에 자동 수집 지침 통합

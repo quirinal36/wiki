@@ -2,7 +2,7 @@
 
 > 콘텐츠 카탈로그. 모든 위키 페이지를 타입별로 한 줄 요약과 함께 나열한다.
 > 질의 시 이 파일을 먼저 읽어 관련 페이지를 찾는다.
-> 최종 갱신: 2026-07-17 | 총 페이지: 59
+> 최종 갱신: 2026-07-17 | 총 페이지: 60
 
 ## Concepts (개념)
 - [[concepts/ai-assisted-education|AI-Assisted Education]]: AI 도구를 교육 과정의 핵심 파트너로 도입하는 교육 패러다임.
@@ -22,13 +22,14 @@
 - [[concepts/school-as-learning-hub|School as Learning Hub]]: School as Learning Hub is the idea that schools should stop acting primarily as knowledge monop…
 - [[concepts/selfish-club-aaa-playbook|🚀 셀피쉬클럽(AAA팀) 운영 모델 복제 가이드]]: 6~8명이 적정 규모 (AAA팀은 8명)
 - [[concepts/tribe-based-leadership|Tribe-Based Leadership]]: Tribe-Based Leadership is the practice of building a small but highly aligned community around…
-- [[concepts/vibe-coding-education|바이브코딩 교육론]]: 바이브코딩(Vibe Coding)은 상세 문법 지식에 매몰되지 않고, AI와 대화하며 서비스의 '의도(Vibe)'와 '기능'을 중심으로 빠르게 결과물을 만들어내는 개발 방…
-- [[concepts/vibe-coding|Vibe Coding]]: AI(특히 LLM)의 지원을 받아 전통적인 코딩 문법 숙달보다 전체적인 로직의 흐름과 '바이브(느낌/의도)'를 제어하여 빠르게 결과물을 만들어내는 개발 방식.
+- [[concepts/vibe-coding-education|바이브코딩 교육론]]: AI 도구를 활용해 서비스의 '의도(Vibe)'를 중심으로 결과물을 만들어내는 개발 교육 방법론. 비개발자·개발자 대상 브릿지 교육과 AX 컨설턴트 양성 포함.
+- [[concepts/vibe-coding|Vibe Coding]]: AI(특히 LLM)의 지원을 받아 '바이브(느낌/의도)'를 제어하여 빠르게 결과물을 만들어내는 개발 방식. ERP 논쟁·Zoho vs YC 설전 등 산업계 격론을 촉발한 개념.
+- [[concepts/vibe-coding-bridge-vision|바이브코딩 브릿지 비전]]: 비개발자와 개발자 간 비생산적 논쟁 대신 양측 모두에게 '승리'를 안겨주는 브릿지 전략. 비개발자의 디지털 주권과 개발자의 AX 컨설턴트 전환을 연결.
 
 ## Entities (엔티티)
 - [[entities/hermes-agent|Hermes Agent]]: Hermes Agent is the primary AI operator that manages this vault, performs tool-using workflows,…
 - [[entities/jang-dong-seon|Jang Dong-seon]]: Jang Dong-seon is presented in this source as a neuroscientist arguing that AI-era education mu…
-- [[entities/lets-coding-and-play|렛츠코딩앤플레이]]: 렛츠코딩앤플레이 is the academy referenced in the source article. In this wiki, it represents a coding-…
+- [[entities/lets-coding-and-play|렛츠코딩앤플레이]]: 이형구가 설립한 AI 시대 코딩 교육 기관. 비개발자·개발자 브릿지 전략으로 바이브코딩 교육과 AX 컨설턴트 양성을 실천.
 - [[entities/seth-godin|Seth Godin]]: Seth Godin is an author and strategist whose ideas are used in this vault as a lens for how peo…
 - [[entities/trader-agent|Trader Agent]]: Trader Agent is a focused operating profile for trading-related workflows, analysis requests, a…
 
@@ -98,7 +99,7 @@
 
 > 콘텐츠 카탈로그. 모든 위키 페이지를 타입별로 한 줄 요약과 함께 나열한다.
 > 질의 시 이 파일을 먼저 읽어 관련 페이지를 찾는다.
-> 최종 갱신: 2026-07-17 | 총 페이지: 59
+> 최종 갱신: 2026-07-17 | 총 페이지: 60
 
 ## Concepts (개념)
 - [[concepts/ai-assisted-education|AI-Assisted Education]]: AI 도구를 교육 과정의 핵심 파트너로 도입하는 교육 패러다임.
@@ -118,13 +119,14 @@
 - [[concepts/school-as-learning-hub|School as Learning Hub]]: School as Learning Hub is the idea that schools should stop acting primarily as knowledge monop…
 - [[concepts/selfish-club-aaa-playbook|🚀 셀피쉬클럽(AAA팀) 운영 모델 복제 가이드]]: 6~8명이 적정 규모 (AAA팀은 8명)
 - [[concepts/tribe-based-leadership|Tribe-Based Leadership]]: Tribe-Based Leadership is the practice of building a small but highly aligned community around…
-- [[concepts/vibe-coding-education|바이브코딩 교육론]]: 바이브코딩(Vibe Coding)은 상세 문법 지식에 매몰되지 않고, AI와 대화하며 서비스의 '의도(Vibe)'와 '기능'을 중심으로 빠르게 결과물을 만들어내는 개발 방…
-- [[concepts/vibe-coding|Vibe Coding]]: AI(특히 LLM)의 지원을 받아 전통적인 코딩 문법 숙달보다 전체적인 로직의 흐름과 '바이브(느낌/의도)'를 제어하여 빠르게 결과물을 만들어내는 개발 방식.
+- [[concepts/vibe-coding-education|바이브코딩 교육론]]: AI 도구를 활용해 서비스의 '의도(Vibe)'를 중심으로 결과물을 만들어내는 개발 교육 방법론. 비개발자·개발자 대상 브릿지 교육과 AX 컨설턴트 양성 포함.
+- [[concepts/vibe-coding|Vibe Coding]]: AI(특히 LLM)의 지원을 받아 '바이브(느낌/의도)'를 제어하여 빠르게 결과물을 만들어내는 개발 방식. ERP 논쟁·Zoho vs YC 설전 등 산업계 격론을 촉발한 개념.
+- [[concepts/vibe-coding-bridge-vision|바이브코딩 브릿지 비전]]: 비개발자와 개발자 간 비생산적 논쟁 대신 양측 모두에게 '승리'를 안겨주는 브릿지 전략. 비개발자의 디지털 주권과 개발자의 AX 컨설턴트 전환을 연결.
 
 ## Entities (엔티티)
 - [[entities/hermes-agent|Hermes Agent]]: Hermes Agent is the primary AI operator that manages this vault, performs tool-using workflows,…
 - [[entities/jang-dong-seon|Jang Dong-seon]]: Jang Dong-seon is presented in this source as a neuroscientist arguing that AI-era education mu…
-- [[entities/lets-coding-and-play|렛츠코딩앤플레이]]: 렛츠코딩앤플레이 is the academy referenced in the source article. In this wiki, it represents a coding-…
+- [[entities/lets-coding-and-play|렛츠코딩앤플레이]]: 이형구가 설립한 AI 시대 코딩 교육 기관. 비개발자·개발자 브릿지 전략으로 바이브코딩 교육과 AX 컨설턴트 양성을 실천.
 - [[entities/seth-godin|Seth Godin]]: Seth Godin is an author and strategist whose ideas are used in this vault as a lens for how peo…
 - [[entities/trader-agent|Trader Agent]]: Trader Agent is a focused operating profile for trading-related workflows, analysis requests, a…
 
