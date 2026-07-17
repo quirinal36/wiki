@@ -5,6 +5,16 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-07-17] create | Auto Wiki Collector 시스템 구축
+- **Type 1 (대화 인사이트)** + **Type 3 (프로젝트 정보)** 자동 수집
+- Skill 생성: `~/.hermes/profiles/yellow/skills/productivity/auto-wiki-collector/SKILL.md`
+- Yellow AGENTS.md §6에 자동 수집 지침 통합
+- Wiki 페이지 생성:
+  - `concepts/auto-wiki-collector.md` — 개념 설명
+  - `agents/auto-wiki-collector.md` — 기술 스펙
+- `index.md` 업데이트 (총 페이지: 57 → 59)
+- 3가지 트리거: 대화 인사이트, 대규모 Input, 프로젝트 중요 정보 — 모두 사용자 승인 없이 자동 기록
+
 ## [2026-05-16] maintenance | Daily Vault Maintenance
 - Scanned raw/ folder and found unprocessed notes.
 - Detected and ignored empty file: `raw/notes/무제.base`.
@@ -240,3 +250,10 @@
 - Fixed 30+ broken wikilinks (drone placeholders → plain text, `instruction` → correct path, etc.).
 - Final state: 0 active broken links, 16 orphans.
 - Updated index.md: 59 pages, all `wiki/` prefixes removed.
+
+## [2026-07-17] update | knowledge-management-strategy 현행화
+- Updated `concepts/knowledge-management-strategy.md` to post-restructure state.
+- Section 3 (3계층 아키텍처): `wiki/` 계층 설명을 루트 폴더 기준(`summaries/`, `entities/`, `concepts/` 등)으로 교체, `schema/` 보조 문서 언급 추가.
+- Section 6 (현재 상태): 2026-06-10 기준 내용을 2026-07-17 기준으로 재작성 — wiki/ → 루트 통합 완료, SOUL.md 삭제 및 AGENTS.md 일원화 반영, 남은 과제(고아 16개, 루트 직속 파일) 기록.
+- Fixed 3 stale wikilinks (`[[wiki/concepts/...]]` → `[[llm-wiki]]`, `[[obsidian-workflow]]`).
+- Frontmatter `updated: 2026-07-17`.

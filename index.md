@@ -2,13 +2,14 @@
 
 > 콘텐츠 카탈로그. 모든 위키 페이지를 타입별로 한 줄 요약과 함께 나열한다.
 > 질의 시 이 파일을 먼저 읽어 관련 페이지를 찾는다.
-> 최종 갱신: 2026-07-17 | 총 페이지: 57
+> 최종 갱신: 2026-07-17 | 총 페이지: 59
 
 ## Concepts (개념)
 - [[concepts/ai-assisted-education|AI-Assisted Education]]: AI 도구를 교육 과정의 핵심 파트너로 도입하는 교육 패러다임.
 - [[concepts/ai-off-workflow|AI-Off Workflow]]: AI-Off Workflow is a practice where a user uses AI to gather and organize ideas, then deliberat…
 - [[concepts/ai-service-building-curriculum|AI Service-Building Curriculum]]: AI service-building curriculum is an education model in which students use AI tools to design,…
 - [[concepts/art-as-work-strategy|Art as Work Strategy]]: In the context of the AI era, 'Art' is defined as the human element of work that cannot be redu…
+- [[concepts/auto-wiki-collector|자동 Wiki 지식 수집기 (Auto Wiki Collector)]]: Yellow가 대화 중 가치 있는 지식을 사용자 승인 없이 자동으로 wiki에 기록하는 시스템.
 - [[concepts/critical-ai-literacy|Critical AI Literacy]]: Critical AI Literacy is the ability to use AI while continuously questioning its source basis,…
 - [[concepts/end-of-work-uhi|노동의 종말과 보편적 고소득(UHI)]]: AI가 인간보다 모든 일을 더 잘하게 되면 전통적 '일자리'가 사라진다는 전망. 일론 머스크가 제시했다.
 - [[concepts/four-muscles-generalist|4대 근육과 제너럴리스트 인재상]]: AI 시대 인재의 경쟁력을 특정 분야 스페셜리스트가 아니라, 인간 고유 역량을 갖춘 제너럴리스트로 보는 관점. SK그룹 최태원 회장이 '4가지 근육'으로 정리했다.
@@ -76,6 +77,7 @@
 - [[queries/parent-notice-ai-use-guide|Parent Notice Draft for AI Use Guide]]: 이 문서를 바탕으로 학부모 안내문 초안 작성
 
 ## Agents (에이전트)
+- [[agents/auto-wiki-collector|Auto Wiki Collector — Skill Spec]]: Yellow의 자동 wiki 지식 수집 시스템. 트리거 유형, 판단 기준, wiki AGENTS.md 통합 지점을 정의.
 - [[agents/hermes-skills-overview|Hermes Skills Overview]]: Hermes의 skill은 agent가 특정 데이터 소스나 외부 시스템에 접근하는 방법을 표준화한 문서다.
 - [[agents/letstrade-pipeline|letsTrade 아침 브리핑 파이프라인]]: 매일 아침 사용자가 전달한 ticker 번호를 기반으로 개별 주식 분석 브리핑을 Slack으로 전송한다.
 - [[agents/skill-feed-collector|Skill — feed-collector]]: RSS 피드를 수집해 Supabase에 저장하는 FeedCollector 프로젝트의 데이터를 web search 없이 직접 쿼리한다.
@@ -96,13 +98,14 @@
 
 > 콘텐츠 카탈로그. 모든 위키 페이지를 타입별로 한 줄 요약과 함께 나열한다.
 > 질의 시 이 파일을 먼저 읽어 관련 페이지를 찾는다.
-> 최종 갱신: 2026-07-17 | 총 페이지: 57
+> 최종 갱신: 2026-07-17 | 총 페이지: 59
 
 ## Concepts (개념)
 - [[concepts/ai-assisted-education|AI-Assisted Education]]: AI 도구를 교육 과정의 핵심 파트너로 도입하는 교육 패러다임.
 - [[concepts/ai-off-workflow|AI-Off Workflow]]: AI-Off Workflow is a practice where a user uses AI to gather and organize ideas, then deliberat…
 - [[concepts/ai-service-building-curriculum|AI Service-Building Curriculum]]: AI service-building curriculum is an education model in which students use AI tools to design,…
 - [[concepts/art-as-work-strategy|Art as Work Strategy]]: In the context of the AI era, 'Art' is defined as the human element of work that cannot be redu…
+- [[concepts/auto-wiki-collector|자동 Wiki 지식 수집기 (Auto Wiki Collector)]]: Yellow가 대화 중 가치 있는 지식을 사용자 승인 없이 자동으로 wiki에 기록하는 시스템.
 - [[concepts/critical-ai-literacy|Critical AI Literacy]]: Critical AI Literacy is the ability to use AI while continuously questioning its source basis,…
 - [[concepts/end-of-work-uhi|노동의 종말과 보편적 고소득(UHI)]]: AI가 인간보다 모든 일을 더 잘하게 되면 전통적 '일자리'가 사라진다는 전망. 일론 머스크가 제시했다.
 - [[concepts/four-muscles-generalist|4대 근육과 제너럴리스트 인재상]]: AI 시대 인재의 경쟁력을 특정 분야 스페셜리스트가 아니라, 인간 고유 역량을 갖춘 제너럴리스트로 보는 관점. SK그룹 최태원 회장이 '4가지 근육'으로 정리했다.
@@ -170,6 +173,7 @@
 - [[queries/parent-notice-ai-use-guide|Parent Notice Draft for AI Use Guide]]: 이 문서를 바탕으로 학부모 안내문 초안 작성
 
 ## Agents (에이전트)
+- [[agents/auto-wiki-collector|Auto Wiki Collector — Skill Spec]]: Yellow의 자동 wiki 지식 수집 시스템. 트리거 유형, 판단 기준, wiki AGENTS.md 통합 지점을 정의.
 - [[agents/hermes-skills-overview|Hermes Skills Overview]]: Hermes의 skill은 agent가 특정 데이터 소스나 외부 시스템에 접근하는 방법을 표준화한 문서다.
 - [[agents/letstrade-pipeline|letsTrade 아침 브리핑 파이프라인]]: 매일 아침 사용자가 전달한 ticker 번호를 기반으로 개별 주식 분석 브리핑을 Slack으로 전송한다.
 - [[agents/skill-feed-collector|Skill — feed-collector]]: RSS 피드를 수집해 Supabase에 저장하는 FeedCollector 프로젝트의 데이터를 web search 없이 직접 쿼리한다.

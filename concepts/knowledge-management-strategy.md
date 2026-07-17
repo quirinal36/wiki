@@ -1,7 +1,7 @@
 ---
 title: 우리의 지식관리 전략 (Knowledge Management Strategy)
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-07-17
 type: concept
 tags: [workflow, llm, tooling]
 sources:
@@ -11,7 +11,7 @@ status: active
 
 # 우리의 지식관리 전략
 
-이 페이지는 Andrej Karpathy의 **LLM Wiki** 패턴을 우리 위키(`~/wiki`)에 어떻게 적용하고 운영할지를 정의하는 상위 전략 문서다. 운영 세부 규칙은 [[AGENTS.md]]를, 기존 개념 설명은 [[wiki/concepts/llm-wiki.md|llm-wiki]]를 참조한다.
+이 페이지는 Andrej Karpathy의 **LLM Wiki** 패턴을 우리 위키(`~/wiki`)에 어떻게 적용하고 운영할지를 정의하는 상위 전략 문서다. 운영 세부 규칙은 [[AGENTS.md]]를, 기존 개념 설명은 [[llm-wiki]]를 참조한다.
 
 ## 1. 핵심 철학 — 왜 RAG가 아니라 위키인가
 
@@ -35,8 +35,8 @@ status: active
 ## 3. 3계층 아키텍처
 
 1. **Raw 소스 (`raw/`)** — 불변(immutable). 진실의 원천. 에이전트는 읽기만 하고 절대 수정하지 않는다.
-2. **위키 (`wiki/`)** — 에이전트 소유의 마크다운 페이지(요약·엔티티·개념·비교·질의응답). 에이전트가 생성·갱신·교차참조한다.
-3. **스키마 (`AGENTS.md`)** — 구조·규약·워크플로우 정의. 에이전트를 "잡담 챗봇"이 아니라 "규율 있는 위키 관리자"로 만드는 설정 파일. 사용자와 함께 시간을 두고 공진화시킨다.
+2. **지식 페이지 (루트 폴더)** — 에이전트 소유의 마크다운 페이지. `summaries/`(요약), `entities/`(엔티티), `concepts/`(개념), `comparisons/`(비교), `queries/`(질의응답), `agents/`(에이전트 스펙), `operations/`(운영), `projects/`(프로젝트), `templates/`(템플릿). 에이전트가 생성·갱신·교차참조한다. (2026-07-17 구조 개편으로 `wiki/` 하위가 아니라 루트 폴더 기준으로 통일됨.)
+3. **스키마 (`AGENTS.md`)** — 구조·규약·워크플로우 정의. 에이전트를 "잡담 챗봇"이 아니라 "규율 있는 위키 관리자"로 만드는 설정 파일. 사용자와 함께 시간을 두고 공진화시킨다. 보조 스키마 문서는 `schema/`(page-types, tag-taxonomy, frontmatter-example) 참조.
 
 ## 4. 세 가지 핵심 작업 (Operations)
 
@@ -61,16 +61,19 @@ status: active
 - 모순은 조용히 덮어쓰지 않는다 — 양쪽 주장을 날짜·소스와 함께 기록하고 사용자 검토용으로 플래그한다.
 - 한 번의 ingest가 10개 이상 기존 페이지를 갱신해야 하면 진행 전 사용자에게 확인한다.
 
-## 6. 우리 위키의 현재 상태 및 개선 방향 (2026-06-10)
+## 6. 우리 위키의 현재 상태 및 개선 방향 (2026-07-17)
 
 - 도메인: **AI 비즈니스 / AI 에이전트 / LLM 도구·워크플로우 / 교육 패러다임 변화 / 운영(operations)**. 한국어·영어 혼재.
-- 구조 정리 필요 항목(향후 lint 시 처리):
-  - `wiki/wiki/...` 중첩 경로와 루트 직속 한글 파일(`블로그 글 다듬기 가이드.md` 등)의 위치 일관성.
-  - `summaries/`가 루트와 `wiki/` 양쪽에 분산 → 한 곳으로 통합 검토.
-  - `index.md`가 일부 섹션만 채워져 있음 → 전체 페이지를 타입별로 재색인 검토.
-- 다음 단계 제안: 전체 lint 1회 실행으로 색인 완전성·고아 페이지·중복 경로를 정리한 뒤, 이후부터 본 전략대로 ingest/query/lint 사이클을 돈다.
+- 완료된 구조 정리 (2026-07-17 lint+restructure):
+  - `wiki/` 하위 폴더를 루트로 통합, `wiki/` 디렉토리 제거. 중복 경로·`index.md` 충돌 해소.
+  - 깨진 wikilink 일괄 수정, `index.md` 전체 재색인 (타입별 분류, 총 57페이지).
+  - `SOUL.md` 삭제 — `AGENTS.md`가 유일한 운영 기준 문서로 일원화.
+- 남은 과제:
+  - 고아 페이지(inbound link 없는 페이지) 16개 연결 또는 정리.
+  - 루트 직속 파일(`ai-agent-trends-2026.md`, `drone-agriculture-2026.md` 등)의 위치 일관성 검토.
+- 운영 방침: 이후부터 본 전략대로 ingest/query/lint 사이클을 돈다.
 
 ## 관련 페이지
-- [[wiki/concepts/llm-wiki.md|llm-wiki]] — 패턴의 개념 설명
-- [[wiki/concepts/obsidian-workflow.md|obsidian-workflow]] — Obsidian 연동 워크플로우
+- [[llm-wiki]] — 패턴의 개념 설명
+- [[obsidian-workflow]] — Obsidian 연동 워크플로우
 - [[AGENTS.md]] — 운영 스키마(규약 원본)
