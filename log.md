@@ -183,7 +183,7 @@
 - Consolidation: `git mv` of 46 root content pages into canonical `wiki/` structure. 2 filename collisions preserved as `-alt` (`lets-coding-and-play-alt`, `seth-godin-alt`).
 - Archived 4 empty placeholder files from `raw/notes/` to `_archive/raw/notes/`.
 - Removed now-empty root dirs: `summaries/`, `concepts/`, `entities/`, `queries/`.
-- Fixed 28 broken wikilinks: escaped skill links, empty `[[concepts]]`/`[[entities]]` placeholders removed, `media/*.mp4` links → inline code, remapped stale targets to existing pages.
+- Fixed 28 broken wikilinks: escaped skill links, empty ``concepts/``/``entities/`` placeholders removed, `media/*.mp4` links → inline code, remapped stale targets to existing pages.
 - Added YAML frontmatter to 10 pages that lacked it.
 - Regenerated `index.md` from scratch: 96 pages cataloged across 7 type sections (concepts, entities, comparisons, summaries, queries, agents, operations) + pointer section for edudata/시설관리/blog templates.
 - Final lint: broken_links=0, frontmatter_missing=0, empty_files=0. Remaining: 44 pages reachable only via index (no page-to-page inbound) — to be cross-linked incrementally during future ingest/query.
@@ -212,3 +212,31 @@
 - 기존 노트 연결: linchpin-strategy, critical-ai-literacy, art-as-work-strategy, learner-agency, ai-assisted-education, llm-wiki, AI_전쟁은_모델을_넘어섰다_요약.
 - index.md 갱신.
 >>>>>>> 5678dc7f96a253d9b93937b99c43e1388b434147
+
+## [2026-07-03] create | AI 에이전트 트렌드 2026 원자료
+- Created raw research file: `raw/ai-agent-trends-2026.md`.
+- Scope: open-source AI agent framework trends, last-month releases, industry outlook, Korea adoption status.
+- Sources include GitHub releases/docs for Hermes, OpenClaw, CrewAI, AutoGPT, LangGraph; NVIDIA GTC/glossary; Karpathy references; Samsung SDS Korea Public AI Expo 2026 news.
+
+## [2026-07-03] create | 드론×농업 트렌드 2026 원자료
+- Created raw research file: `raw/drone-agriculture-2026.md`.
+- Scope: 2026 기준 농업용 드론 시장 규모/전망, AI·자율비행·멀티스펙트럼·정밀 살포 기술 트렌드, 한국/해외 활용 사례, 규제·인증 동향.
+- Sources include Mordor Intelligence, The Business Research Company, BlueWeave Consulting, 농림축산식품부, 대한민국 정책브리핑, Korea.net, DJI Agriculture, Frontiers in Plant Science, XAG, FAA, 한국교통안전공단.
+
+## [2026-07-03] create | 드론이 바꾸는 농업의 미래 — 블로그 포스트
+- Created blog post: `드론이 바꾸는 농업의 미래 — 2026년, 하늘에서 농사짓는 시대.md` → `/home/leehg/wiki/drone-agriculture-2026.md`.
+- Based on raw research: `raw/drone-agriculture-2026.md`.
+- Structure: 도입부(현장 풍경) → 농업용 드론 현황(시장·기술) → AI+드론 정밀농업 → 한국 드론 혁명 현장 → 도입 가이드(4단계) → 미래 전망.
+- YAML frontmatter included: title, created, updated, type, tags, sources, aliases.
+- Embedded 6 wikilinks: DJI Agriculture, XAG, 정밀농업, 농업 AI 대전환, 노지 스마트농업, 스마트팜.
+- Updated `index.md` with new Blog section entry.
+- Updated `log.md` with this entry.
+
+## [2026-07-17] lint+restructure | Conflict resolution & wiki/ → root consolidation
+- Resolved index.md Git conflict (chose newer branch, removed all `wiki/` prefixes).
+- Moved 16 files from `wiki/` subdirectories to root (`concepts/`, `queries/`, `_meta/`).
+- Removed now-empty `wiki/` directory.
+- Created entity stubs: `entities/lets-coding-and-play.md`, `entities/seth-godin.md`.
+- Fixed 30+ broken wikilinks (drone placeholders → plain text, `instruction` → correct path, etc.).
+- Final state: 0 active broken links, 16 orphans.
+- Updated index.md: 59 pages, all `wiki/` prefixes removed.

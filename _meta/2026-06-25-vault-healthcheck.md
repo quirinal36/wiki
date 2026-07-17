@@ -29,7 +29,7 @@ status: active
 
 ## 참고 사항
 
-- **깨진 링크**: 실제 깨진 wikilink 없음. `log.md`의 `[[concepts]]`/`[[entities]]` 2건은 과거 수정 내역을 서술한 텍스트라 오탐.
+- **깨진 링크**: 실제 깨진 wikilink 없음. `log.md`의 ``concepts/``/``entities/`` 2건은 과거 수정 내역을 서술한 텍스트라 오탐.
 - **고립 노트**: 템플릿·시설관리·edudata 일부 노트가 링크 없이 존재. 성격상 독립 문서라 방치 가능.
 - **SCHEMA.md 부재**: SOUL.md는 단일 `SCHEMA.md` 운영 규칙을 권장하나 현재 `schema/` 폴더(3개 파일)로 분산. 통합 검토 권장.
 
