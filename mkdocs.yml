@@ -1,0 +1,38 @@
+site_name: Wiki
+site_description: Obsidian knowledge base rendered with MkDocs
+
+# The `same-dir` plugin allows docs_dir to be the repo root (where this file
+# lives), so no restructuring of the vault is required.
+docs_dir: .
+
+plugins:
+  - same-dir
+  - search
+  - roamlinks   # converts Obsidian [[wikilinks]] into MkDocs links
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+# gitignore-style excludes (MkDocs 1.5+). Keeps Obsidian internals and
+# archives out of the rendered site.
+exclude_docs: |
+  .archive/
+  _archive/
+  .obsidian/
+  .git/
+  templates/
+  raw/
+  schema/
+  AGENTS.md
