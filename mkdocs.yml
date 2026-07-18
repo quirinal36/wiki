@@ -1,5 +1,6 @@
 site_name: Wiki
 site_description: Obsidian knowledge base rendered with MkDocs
+site_url: http://localhost:8000/
 
 # The `same-dir` plugin allows docs_dir to be the repo root (where this file
 # lives), so no restructuring of the vault is required.
@@ -8,6 +9,9 @@ docs_dir: .
 plugins:
   - same-dir
   - search
+  # NOTE: obsidian-interactive-graph must run BEFORE roamlinks, otherwise
+  # roamlinks rewrites the [[wikilinks]] first and the graph ends up empty.
+  - obsidian-interactive-graph   # generates assets/javascripts/graph.json from wikilinks
   - roamlinks   # converts Obsidian [[wikilinks]] into MkDocs links
 
 theme:
