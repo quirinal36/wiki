@@ -40,3 +40,5 @@ exclude_docs: |
   raw/
   schema/
   AGENTS.md
+  chat_server.py
+  "*.py"

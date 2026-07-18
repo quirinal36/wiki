@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "mkdocs", "serve", "-a", "localhost:8000"],
       "port": 8000
+    },
+    {
+      "name": "chat-server",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["chat_server.py"],
+      "port": 8001
     }
   ]
 }

@@ -1,2 +1,11 @@
 .backup/
 .fuse_hidden*
+
+# secrets — never commit API keys
+.env
+
+# mkdocs build output
+site/
+
+# python
+__pycache__/
