@@ -42,3 +42,7 @@ exclude_docs: |
   AGENTS.md
   chat_server.py
   "*.py"
+  api/
+  scripts/
+  vercel.json
+  requirements.txt

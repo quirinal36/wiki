@@ -46,7 +46,11 @@ title: 위키 채팅
 
 <script>
 (function () {
-  var API = 'http://localhost:8001/api/chat';
+  // 로컬 mkdocs serve(포트 8000)에서는 별도 채팅 서버(8001)를,
+  // Vercel 배포에서는 같은 도메인의 서버리스 함수(/api/chat)를 사용
+  var API = (location.hostname === 'localhost' || location.hostname === '127.0.0.1')
+    ? 'http://localhost:8001/api/chat'
+    : '/api/chat';
   var history = [];
 
   function initChat() {
@@ -101,8 +105,10 @@ title: 위키 채팅
           status.textContent = '';
         })
         .catch(function (e) {
-          bubble('bot', '오류가 발생했습니다: ' + e.message +
-            '\n채팅 서버(chat_server.py, 포트 8001)가 실행 중인지 확인해주세요.');
+          var hint = API.indexOf('localhost:8001') !== -1
+            ? '\n채팅 서버(chat_server.py, 포트 8001)가 실행 중인지 확인해주세요.'
+            : '\n잠시 후 다시 시도해주세요. 계속되면 Vercel 함수 로그를 확인해주세요.';
+          bubble('bot', '오류가 발생했습니다: ' + e.message + hint);
           status.textContent = '';
         })
         .finally(function () {
