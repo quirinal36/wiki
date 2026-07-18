@@ -267,3 +267,14 @@
 - Section 6 (현재 상태): 2026-06-10 기준 내용을 2026-07-17 기준으로 재작성 — wiki/ → 루트 통합 완료, SOUL.md 삭제 및 AGENTS.md 일원화 반영, 남은 과제(고아 16개, 루트 직속 파일) 기록.
 - Fixed 3 stale wikilinks (`[[wiki/concepts/...]]` → `[[llm-wiki]]`, `[[obsidian-workflow]]`).
 - Frontmatter `updated: 2026-07-17`.
+
+## [2026-07-18] create | agentree-home 저장소 분석 → 지식 파편 5개 + 링크망
+- 소스: `~/Documents/workspace/agentree-home` 저장소 구조·git history(176 커밋) 직접 분석.
+- Created `entities/agentree.md` — Agentree(에이전트리) 사업체 엔티티 (서비스 4+1축, 사업 정보, 관련 인물).
+- Created `projects/agentree-home/overview.md` — 코드베이스 구조·스택·작업 주의사항.
+- Created `projects/agentree-home/development-history.md` — 커밋 히스토리 5단계 전개.
+- Created `projects/agentree-home/open-lecture-ops.md` — 오픈강의(7/20) 운영 시스템 패턴.
+- Created `concepts/geo-generative-engine-optimization.md` — GEO 개념 + agentree-home 실전 체크리스트.
+- Updated `entities/lets-coding-and-play.md` — 관련 페이지에 [[entities/agentree]] 백링크 추가.
+- Updated `index.md` — 신규 5페이지 등재 + Projects 섹션 신설 + **전체 내용이 2회 중복돼 있던 문제 해결(dedupe)**. 총 페이지 60→65.
+- 링크망: 신규 페이지 전부 상호 링크 2개 이상, 기존 페이지(hermes-agent, lets-coding-and-play, vibe-coding-bridge-vision, vibe-coding-education)와 연결.

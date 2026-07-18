@@ -27,6 +27,7 @@ sources:
 - 질문력, 문제 정의력 등 AI가 대체할 수 없는 인간 중심 역량 함양
 
 ## 관련 페이지
+- [[entities/agentree|Agentree (에이전트리)]] — 설립자 이형구가 강사·운영으로 참여하는 AI 에이전트 컨설팅·교육 사업체
 - [[concepts/vibe-coding|Vibe Coding]]
 - [[concepts/vibe-coding-education|바이브코딩 교육론]]
 - [[concepts/vibe-coding-bridge-vision|바이브코딩 브릿지 비전]]
